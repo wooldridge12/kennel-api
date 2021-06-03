@@ -1,95 +1,149 @@
 {
-    "animals": [
-        {
-            "id": 1,
-            "name": "Doodles",
-            "breed": "Poodle",
-            "customerId": 1,
-            "locationId": 2
-        },
-        {
-            "id": 1,
-            "name": "Pugzy",
-            "breed": "Pug",
-            "customerId": 2,
-            "locationId": 2
-        },
-        {
-            "id": 1,
-            "name": "Bully",
-            "breed": "Bulldog",
-            "customerId": 3,
-            "locationId": 2
-        },
-        {
-            "id": 1,
-            "name": "daDog",
-            "breed": "husky",
-            "customerId": 4,
-            "locationId": 2
-        },
-        {
-            "id": 1,
-            "name": "meanie",
-            "breed": "chewawa",
-            "customerId": 5,
-            "locationId": 2
-        }
-    ],
-    "customers": [
-        {
-            "id": 1,
-            "name": "Hannah Hall",
-            "address": "7002 Chestnut Ct"
-        },
-        {
-            "id": 2,
-            "name": "Mikey Wooldridge",
-            "address": "8998 lastLake Dr"
-        },
-        {
-            "id": 3,
-            "name": "Nikki Scordato",
-            "address": "3333 Bluereef ave"
-        },
-        {
-            "id": 4,
-            "name": "Michael",
-            "address": "1234 benson dr"
-        }
-    ],
-    "employees": [
-        {
-            "id": 1,
-            "name": "Richard",
-            "locationId": 2
-        },
-        {
-            "id": 2,
-            "name": "Davey Jones",
-            "locationId": 2
-        },
-        {
-            "id": 3,
-            "name": "John Basalone",
-            "locationId": 1
-        },
-        {
-            "id": 4,
-            "name": "Lisa Rigdon",
-            "locationId": 1
-        }
-    ],
-    "locations": [
-        {
-            "id": 1,
-            "name": "Nashville North",
-            "address": "8422 Johnson Pike"
-        },
-        {
-            "id": 2,
-            "name": "Nashville South",
-            "address": "209 Emory Drive"
-        }
-    ]
+  "animals": [
+    {
+      "id": 1,
+      "name": "Doodles",
+      "breed": "Poodle",
+      "customerId": 1,
+      "locationId": 2
+    },
+    {
+      "id": 1,
+      "name": "Pugzy",
+      "breed": "Pug",
+      "customerId": 2,
+      "locationId": 2
+    },
+    {
+      "id": 1,
+      "name": "Bully",
+      "breed": "Bulldog",
+      "customerId": 3,
+      "locationId": 2
+    },
+    {
+      "id": 1,
+      "name": "daDog",
+      "breed": "husky",
+      "customerId": 4,
+      "locationId": 2
+    },
+    {
+      "id": 1,
+      "name": "meanie",
+      "breed": "chewawa",
+      "customerId": 5,
+      "locationId": 2
+    },
+    {
+      "name": "Isabelle",
+      "breed": "german sheppard",
+      "locationId": 1,
+      "customerId": 3,
+      "id": 2
+    },
+    {
+      "name": "Isabelle",
+      "breed": "german sheppard",
+      "locationId": 2,
+      "customerId": 2,
+      "id": 3
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Hannah Hall",
+      "address": "7002 Chestnut Ct",
+      "email": "www.sdsd.com"
+    },
+    {
+      "id": 2,
+      "name": "Mikey Wooldridge",
+      "address": "8998 lastLake Dr",
+      "email": "www.wooldridgemikey@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Nikki Scordato",
+      "address": "3333 Bluereef ave",
+      "email": "www.wooldridgemikey@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "Michael",
+      "address": "1234 benson dr",
+      "email": "www.wooldridgemikey@gmail.com"
+    },
+    {
+      "name": "sarah",
+      "address": "757 Benson Drive, apt 13",
+      "id": 5,
+      "email": "www.wooldridgemikey@gmail.com"
+    },
+    {
+      "email": "wooldridgemikey@gmail.com",
+      "name": "Mikey Wooldridge",
+      "id": 6
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Richard",
+      "locationId": 2
+    },
+    {
+      "id": 2,
+      "name": "Davey Jones",
+      "locationId": 2
+    },
+    {
+      "id": 3,
+      "name": "John Basalone",
+      "locationId": 1
+    },
+    {
+      "id": 4,
+      "name": "Lisa Rigdon",
+      "locationId": 1
+    },
+    {
+      "name": "Isabelle",
+      "locationId": 1,
+      "id": 5
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville North",
+      "address": "8422 Johnson Pike"
+    },
+    {
+      "id": 2,
+      "name": "Nashville South",
+      "address": "209 Emory Drive"
+    },
+    {
+      "name": "shepherdsville",
+      "locationAddress": "757 Benson Drive, apt 13",
+      "id": 3
+    },
+    {
+      "name": "shepherdsville",
+      "locationAddress": "757 Benson Drive, apt 13",
+      "id": 4
+    },
+    {
+      "name": "shepherdsville",
+      "locationAddress": "757 Benson Drive, apt 13",
+      "id": 5
+    },
+    {
+      "name": "shepherdsville",
+      "locationAddress": "757 Benson Drive, apt 13",
+      "id": 6
+    }
+  ]
 }
